@@ -11,7 +11,8 @@
 
 # Validierung
 
-### In dem Moment, als der Fallschirmspringer den Fallschirm öffnete, erreichte er die stationäre Fallgeschwindigkeit (46,2 m/s)in einer Höhe von 1500 Metern, und es gab eine starke Verzögerung.
+### In dem Moment, als der Fallschirmspringer den Fallschirm öffnete, befand er sich in einer Höhe von 1500 Metern, hatte die stationäre Fallgeschwindigkeit von 46,2 m/s erreicht,
+
 ## Simulink Ergebnis
 ![image](https://github.com/user-attachments/assets/222c083a-f25d-4938-ad1f-a8c408c61a97)
 
