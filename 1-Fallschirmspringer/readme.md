@@ -9,6 +9,8 @@
 # Simulink
 ![Screenshot from 2025-05-19 12-52-39](https://github.com/user-attachments/assets/ba4e0840-f8bc-49ac-86cd-fe876dd6aa79)
 
+# Die Zeit, die Beschleunigung wurde null.
+![image](https://github.com/user-attachments/assets/f65a3ae8-b783-4237-8032-461dacb342c7)
 
 
 # Validierung
