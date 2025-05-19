@@ -6,6 +6,8 @@
 # Besonderheiten
 ![image](https://github.com/user-attachments/assets/3bc711a6-7e18-41f0-beb4-5a85e3db1506)
 
+# Simulink
+![Screenshot from 2025-05-19 12-52-39](https://github.com/user-attachments/assets/ba4e0840-f8bc-49ac-86cd-fe876dd6aa79)
 
 
 
