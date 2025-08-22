@@ -9,7 +9,6 @@
 ##### In Simulink, checking exact equality with integers (==2) is numerically risky when signals may not be exactly integers (due to rounding, floating-point representation, or block settings).
 ##### Example: If B comes from some other calculation and ends up being 1.999999, then ==2 would fail.
 ##### But with B > 1.5, both 2.0 and 1.999999 would correctly be taken as “2 bulbs”.
-#
 
 #### Why is The R-filter deployed here?
 
