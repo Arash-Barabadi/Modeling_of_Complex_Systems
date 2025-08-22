@@ -6,6 +6,9 @@
 
 
 #### In the Switch Block the Threshold is specified as 1.5 instead of 2, why? 
+
+<img width="1244" height="546" alt="image" src="https://github.com/user-attachments/assets/14ff6dc9-7078-48d9-8a39-ac90bf580ad6" />
+
 ##### In Simulink, checking exact equality with integers (==2) is numerically risky when signals may not be exactly integers (due to rounding, floating-point representation, or block settings).
 ##### Example: If B comes from some other calculation and ends up being 1.999999, then ==2 would fail.
 ##### But with B > 1.5, both 2.0 and 1.999999 would correctly be taken as “2 bulbs”.
