@@ -11,4 +11,8 @@
 ##### But with B > 1.5, both 2.0 and 1.999999 would correctly be taken as “2 bulbs”.
 
 #### Why is The R-filter deployed here?
+
+<img width="1213" height="467" alt="image" src="https://github.com/user-attachments/assets/c43b2893-afdb-4bd3-bd1b-843118a67ca3" />
+
 ##### The lookup tables give discrete resistance values depending on voltage. Without filtering, these values may jump abruptly → causing simulation instability. The R-Filter smooths those jumps, making R(Last) behave more like a real filament heating up gradually.
+
