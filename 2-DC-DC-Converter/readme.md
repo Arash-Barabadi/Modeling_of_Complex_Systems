@@ -1,6 +1,6 @@
 
-### Load Resistance Model
-#### It decides what the effective load resistance 𝑅(Last) is, based on the output voltage Ua and whether you connect 1 bulb or 2 bulbs.
+## Load Resistance Model
+### It decides what the effective load resistance 𝑅(Last) is, based on the output voltage Ua and whether you connect 1 bulb or 2 bulbs.
 
 <img width="1340" height="519" alt="image" src="https://github.com/user-attachments/assets/423d69dd-0e9e-497f-90a9-9829c7fff793" />
 
@@ -19,3 +19,6 @@
 
 ##### The lookup tables give discrete resistance values depending on voltage. Without filtering, these values may jump abruptly → causing simulation instability. The R-Filter smooths those jumps, making R(Last) behave more like a real filament heating up gradually.
 
+## Stepsize h(T) calculation 
+### In a simulation, the computer does not solve differential equations continuously — it approximates them in discrete time steps. The step size h is the length of one time step in seconds.
+### 2. Why it matters If h is too large → The solver skips over important fast dynamics (like switching ripple). The result can become inaccurate or even unstable. If h is too small → The simulation is accurate but runs very slowly. So the art is to pick h small enough for accuracy but not unnecessarily small (to save computation time).
