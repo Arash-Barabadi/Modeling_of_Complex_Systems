@@ -1,5 +1,5 @@
 
-## Load Resistance Model
+# Load Resistance Model
 ### It decides what the effective load resistance 𝑅(Last) is, based on the output voltage Ua and whether you connect 1 bulb or 2 bulbs.
 
 <img width="1340" height="519" alt="image" src="https://github.com/user-attachments/assets/423d69dd-0e9e-497f-90a9-9829c7fff793" />
@@ -19,7 +19,7 @@
 
 ##### The lookup tables give discrete resistance values depending on voltage. Without filtering, these values may jump abruptly → causing simulation instability. The R-Filter smooths those jumps, making R(Last) behave more like a real filament heating up gradually.
 
-## Stepsize h(T) calculation 
+# Stepsize h(T) calculation 
 ### In a simulation, the computer does not solve differential equations continuously — it approximates them in discrete time steps. The step size h is the length of one time step in seconds.
 ### 2. Why it matters? 
 #### 1- If h is too large → The solver skips over important fast dynamics (like switching ripple). The result can become inaccurate or even unstable. 
@@ -32,8 +32,8 @@
 
 <img width="928" height="236" alt="image" src="https://github.com/user-attachments/assets/6d0187f6-de06-4685-97b6-895b4574c19f" />
 
-### in simple words:
-#### 1- Find the fastest natural time constant of the converter (𝑇 krit).
-#### 2- Divide it by ~20 to get ℎ(𝑇)
-#### 3- Take the PWM period and divide it by the chosen number of points per cycle (N) to get ℎ(𝐷)
-#### 4- The smaller of the two is the step size h used in simulation.
+## in simple words:
+### 1- Find the fastest natural time constant of the converter (𝑇 krit).
+### 2- Divide it by ~20 to get ℎ(𝑇)
+### 3- Take the PWM period and divide it by the chosen number of points per cycle (N) to get ℎ(𝐷)
+### 4- The smaller of the two is the step size h used in simulation.
