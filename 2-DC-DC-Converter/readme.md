@@ -19,7 +19,7 @@
 
 ##### The lookup tables give discrete resistance values depending on voltage. Without filtering, these values may jump abruptly → causing simulation instability. The R-Filter smooths those jumps, making R(Last) behave more like a real filament heating up gradually.
 
-# Stepsize h(T) calculation 
+# Step size h(T) calculation 
 ### In a simulation, the computer does not solve differential equations continuously — it approximates them in discrete time steps. The step size h is the length of one time step in seconds.
 ### 2. Why it matters? 
 #### 1- If h is too large → The solver skips over important fast dynamics (like switching ripple). The result can become inaccurate or even unstable. 
