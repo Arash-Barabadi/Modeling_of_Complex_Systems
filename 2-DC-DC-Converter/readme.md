@@ -21,4 +21,7 @@
 
 ## Stepsize h(T) calculation 
 ### In a simulation, the computer does not solve differential equations continuously — it approximates them in discrete time steps. The step size h is the length of one time step in seconds.
-### 2. Why it matters If h is too large → The solver skips over important fast dynamics (like switching ripple). The result can become inaccurate or even unstable. If h is too small → The simulation is accurate but runs very slowly. So the art is to pick h small enough for accuracy but not unnecessarily small (to save computation time).
+### 2. Why it matters? 
+#### 1- If h is too large → The solver skips over important fast dynamics (like switching ripple). The result can become inaccurate or even unstable. 
+#### 2- If h is too small → The simulation is accurate but runs very slowly. 
+### So the art is to pick h small enough for accuracy but not unnecessarily small (to save computation time).
