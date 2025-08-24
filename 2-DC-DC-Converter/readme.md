@@ -25,3 +25,15 @@
 #### 1- If h is too large → The solver skips over important fast dynamics (like switching ripple). The result can become inaccurate or even unstable. 
 #### 2- If h is too small → The simulation is accurate but runs very slowly. 
 ### So the art is to pick h small enough for accuracy but not unnecessarily small (to save computation time).
+### ℎ  must be small enough to capture both the Converter Dynamics and the PWM Switching Events.
+<img width="974" height="399" alt="image" src="https://github.com/user-attachments/assets/0dbae32d-f6cc-4107-884d-4ce0b06ff6b1" />
+
+<img width="936" height="427" alt="image" src="https://github.com/user-attachments/assets/00920448-524f-4f3e-83b0-a78ab64c5b0e" />
+
+<img width="928" height="236" alt="image" src="https://github.com/user-attachments/assets/6d0187f6-de06-4685-97b6-895b4574c19f" />
+
+### in simple words:
+#### 1- Find the fastest natural time constant of the converter (𝑇 krit).
+#### 2- Divide it by ~20 to get ℎ(𝑇)
+#### 3- Take the PWM period and divide it by the chosen number of points per cycle (N) to get ℎ(𝐷)
+#### 4- The smaller of the two is the step size h used in simulation.
