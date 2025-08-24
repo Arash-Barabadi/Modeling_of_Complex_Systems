@@ -8,7 +8,7 @@
 
 <img width="702" height="292" alt="image" src="https://github.com/user-attachments/assets/b6c98c27-2b66-4fff-9179-d7dcf454f234" />
 
-# -Beispiel: Anwendung (Example application)
+# -Example: Application
 
 <img width="639" height="401" alt="image" src="https://github.com/user-attachments/assets/0d82fd91-e004-4cd0-a792-1061146ac706" />
 
@@ -17,7 +17,7 @@
 
 <img width="1287" height="708" alt="image" src="https://github.com/user-attachments/assets/edb7de32-fedc-4f51-a186-07f74dcf7729" />
 
-# -Final optimized parameters (table)
+# -Final optimized parameters
 
 ## The table shows results for different measurement cases (different PWM, different bulb loads).
 ## These values are slightly different from the datasheet but fit the real system better.
