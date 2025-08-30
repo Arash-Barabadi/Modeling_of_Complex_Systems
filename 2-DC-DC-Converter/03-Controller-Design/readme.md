@@ -11,4 +11,8 @@
 
 # Assumptions
 ## -Target output is Ua = 5V, 
-## -Plant operated with ** 2 small bulbs ** as the load.
+## -Plant operated with 2 small bulbs as the load.
+# Hints
+## Use an averaged plant: average the transfer-function coefficients from both conduction modes (on/off) → one “middle” transfer function.
+## Input voltage seen by the plant comes from PWM:
+## U = (PWM/4095)xUB
