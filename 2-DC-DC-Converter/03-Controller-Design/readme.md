@@ -9,10 +9,9 @@
 ### The voltage controller’s job is:
 ### Compare actual output voltage with the desired setpoint (e.g., 5 V) AND Adjust the PWM duty cycle automatically so that the output voltage stays at the setpoint. So it Rejects disturbances from input voltage changes or load variations.
 
-# Assumptions
-## -Target output is Ua = 5V, 
-## -Plant operated with 2 small bulbs as the load.
-# Hints
-## Use an averaged plant: average the transfer-function coefficients from both conduction modes (on/off) → one “middle” transfer function.
-## Input voltage seen by the plant comes from PWM:
-## U = (PWM/4095)xUB
+## Assumptions
+### -Target output is Ua = 5V, 
+### -Plant operated with 2 small bulbs as the load.
+## Hints
+### Use an averaged plant: average the transfer-function coefficients from both conduction modes (on/off) → one “middle” transfer function.
+### Input voltage seen by the plant comes from PWM: U = (PWM/4095)xUB
