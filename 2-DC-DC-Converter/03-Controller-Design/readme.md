@@ -11,4 +11,4 @@
 
 # Assumptions
 ## -Target output is Ua = 5V, 
-## -Plant operated with __2 small bulbs __ as the load.
+## -Plant operated with **2 small bulbs** as the load.
