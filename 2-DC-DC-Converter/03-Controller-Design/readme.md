@@ -1,4 +1,4 @@
-# Controller Design
+# Voltage Controller Design
 # Purpose of defining a voltage controller for a Converter
 ## A buck converter is a DC-DC converter that steps down a higher DC input voltage to a lower DC output voltage. 
 ## On its own, the output voltage is determined by the duty cycle (PWM ratio) and the load.
