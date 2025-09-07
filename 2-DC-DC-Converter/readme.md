@@ -1,8 +1,8 @@
 # PWM resolution input:
 ### Pulse Width Modulation (PWM) is a technique where a digital signal rapidly switches between ON and OFF, and the ratio of ON-time to the total period (duty cycle) controls the Average OUPUT Voltage or power. In a buck converter, the PWM duty cycle determines how much of the input voltage is passed to the output, thereby setting the output voltage.
 ### What if it were 11-bit or 13-bit?
-### 11-bit (2048 steps): less fine control, ~0.05% resolution per step. That may cause visible “jumps” in output voltage under light loads or precise regulation requirements.
-### 13-bit (8192 steps): finer control, ~0.012% per step. But needs faster counters to maintain high PWM frequency, which increases MCU cost/power.
+###   11-bit (2048 steps): less fine control, ~0.05% resolution per step. That may cause visible “jumps” in output voltage under light loads or precise regulation requirements.
+###   13-bit (8192 steps): finer control, ~0.012% per step. But needs faster counters to maintain high PWM frequency, which increases MCU cost/power.
 
 # Load Resistance Model
 ### It decides what the effective load resistance 𝑅(Last) is, based on the output voltage Ua and whether you connect 1 bulb or 2 bulbs.
