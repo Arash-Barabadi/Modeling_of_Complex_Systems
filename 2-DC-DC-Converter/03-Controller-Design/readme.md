@@ -8,7 +8,7 @@
 
 ### The voltage controller’s job is:
 ### Compare actual output voltage with the desired setpoint (e.g., 5 V) AND Adjust the PWM duty cycle automatically so that the output voltage stays at the setpoint. So it Rejects disturbances from input voltage changes or load variations.
-### Now Let get back to our problem: ...
+### Now Lets get back to our problem: ...
 
 ## Assumptions
 ### - Target output is Ua = 5V, 
