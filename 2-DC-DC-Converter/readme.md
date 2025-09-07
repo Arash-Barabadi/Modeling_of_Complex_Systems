@@ -3,6 +3,7 @@
 ### What if it were 11-bit or 13-bit?
 ### -  11-bit (2048 steps): less fine control, ~0.05% resolution per step. That may cause visible “jumps” in output voltage under light loads or precise regulation requirements.
 ### -  13-bit (8192 steps): finer control, ~0.012% per step. But needs faster counters to maintain high PWM frequency, which increases MCU cost/power.
+### --> That’s why we see 12-bit PWM as a standard in many power electronics control applications.
 
 # Load Resistance Model
 ### It decides what the effective load resistance 𝑅(Last) is, based on the output voltage Ua and whether you connect 1 bulb or 2 bulbs.
