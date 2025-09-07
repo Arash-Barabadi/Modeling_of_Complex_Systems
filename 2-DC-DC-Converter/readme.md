@@ -5,6 +5,9 @@
 ### -  13-bit (8192 steps): finer control, ~0.012% per step. But needs faster counters to maintain high PWM frequency, which increases MCU cost/power.
 ### --> That’s why we see 12-bit PWM as a standard in many power electronics control applications.
 
+# Input Frequency
+# why we need to define it. Coarse or fine? 
+
 # Load Resistance Model
 ### It decides what the effective load resistance 𝑅(Last) is, based on the output voltage Ua and whether you connect 1 bulb or 2 bulbs.
 
