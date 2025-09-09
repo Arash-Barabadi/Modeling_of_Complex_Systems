@@ -31,8 +31,9 @@
 ### - and then convert it to minivolt:
 <img width="396" height="83" alt="image" src="https://github.com/user-attachments/assets/744a4b1e-c119-4ace-afa1-a91f73ee6c2d" />
 
-## The model in the loop simulation block digram is as follows
-<img width="565" height="420" alt="image" src="https://github.com/user-attachments/assets/798662c4-427c-4a74-9cea-f0d1bd45f79e" />
+## The model in the loop simulation block digram is as follows:
+
+<img width="1469" height="258" alt="image" src="https://github.com/user-attachments/assets/cdd8810d-7a21-4fe4-ad36-272a465aceac" />
 
 ### the description:
 <img width="983" height="364" alt="image" src="https://github.com/user-attachments/assets/4e379980-40bd-454f-b0cd-fa3b1662ef5d" />
@@ -45,6 +46,7 @@
 ## That's why we see:
 ### - Initial value = the reference before the step time
 ### - Final value = the new reference after the step time, as follows 
+<img width="565" height="420" alt="image" src="https://github.com/user-attachments/assets/650a0528-96a3-4471-bbb9-1a05f1aff5bb" />
 
 ### So one can simulate a “setpoint change” — which is one of the most important tests in control engineering.
 ### But in reality…
