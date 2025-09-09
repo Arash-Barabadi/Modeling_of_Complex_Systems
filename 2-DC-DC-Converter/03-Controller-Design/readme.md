@@ -48,3 +48,5 @@
 <img width="1920" height="1027" alt="image" src="https://github.com/user-attachments/assets/2f3a47d8-905b-4e7d-9454-ed26108170c3" />
 
 ### So one can simulate a “setpoint change” — which is one of the most important tests in control engineering.
+### But in reality…
+### In real operation of your Buck converter, you usually have only one Sollwert (e.g., 5 V output). In hardware you’d give this setpoint via a fixed value, a knob, or from software. In simulation, you use the Step block to make it time-varying, so you can see how well the controller reacts to changes.
