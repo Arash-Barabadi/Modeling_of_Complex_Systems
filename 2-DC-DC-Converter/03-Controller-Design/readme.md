@@ -15,10 +15,13 @@
 ### - Plant operated with 2 small bulbs as the load.
 ## Hints
 ### - Use an averaged plant: average the transfer-function coefficients from both conduction modes (on/off) → one “middle” transfer function.
-### - Input voltage seen by the DC-DC-Wanlder block comes from PWM: 
+### - Input voltage seen by the DC-DC-Wanlder block comes from PWM:
+
 <img width="180" height="95" alt="image" src="https://github.com/user-attachments/assets/47640f5c-9588-4c0d-b4bb-2d50fe6ffe84" />
+
 ### - Output voltage from DC-DC-Wandler block again:
 <img width="176" height="64" alt="image" src="https://github.com/user-attachments/assets/5514872d-c67f-4e46-98b6-9f5f4ca1282e" />
+
 ### - Efficient gain as seen by the controller:
 <img width="303" height="487" alt="image" src="https://github.com/user-attachments/assets/e0f94a3d-5f6f-471d-bc2c-ebcddebf64f8" />
 
