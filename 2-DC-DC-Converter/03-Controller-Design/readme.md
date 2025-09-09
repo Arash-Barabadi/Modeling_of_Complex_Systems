@@ -37,3 +37,14 @@
 ### the description:
 <img width="983" height="364" alt="image" src="https://github.com/user-attachments/assets/4e379980-40bd-454f-b0cd-fa3b1662ef5d" />
 
+### in the Step block I've inputed two values but you can only input a constant value to it:
+### - The Step block is a test-signal generator.
+<img width="503" height="481" alt="image" src="https://github.com/user-attachments/assets/8477ce42-11b2-4c60-b884-1ce93c4a7255" />
+
+### - It lets you change the Sollwert (reference) during simulation to test if your controller follows different demands.
+## That's why we see:
+### - Initial value = the reference before the step time
+### - Final value = the new reference after the step time, as follows 
+<img width="1920" height="1027" alt="image" src="https://github.com/user-attachments/assets/2f3a47d8-905b-4e7d-9454-ed26108170c3" />
+
+### So one can simulate a “setpoint change” — which is one of the most important tests in control engineering.
