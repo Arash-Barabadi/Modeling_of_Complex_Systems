@@ -11,6 +11,9 @@
 ### Now Lets get back to our problem: ...
 
 ## Assumptions
+## There are some terms to know:
+<img width="800" height="185" alt="image" src="https://github.com/user-attachments/assets/0a6f80b7-4243-4553-8ea5-a66fd5715db8" />
+
 ### - Target output is Ua = 5V, 
 ### - Plant operated with 2 small bulbs as the load.
 ## Hints
