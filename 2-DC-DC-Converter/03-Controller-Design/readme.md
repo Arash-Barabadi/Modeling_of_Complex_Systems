@@ -31,4 +31,9 @@
 ### - and then convert it to minivolt:
 <img width="396" height="83" alt="image" src="https://github.com/user-attachments/assets/744a4b1e-c119-4ace-afa1-a91f73ee6c2d" />
 
+## The model in the loop simulation block digram is as follows
+<img width="1490" height="370" alt="image" src="https://github.com/user-attachments/assets/d4fc3aeb-6804-4aa5-90ae-af5a8c45651b" />
+
+### the description:
+<img width="983" height="364" alt="image" src="https://github.com/user-attachments/assets/4e379980-40bd-454f-b0cd-fa3b1662ef5d" />
 
