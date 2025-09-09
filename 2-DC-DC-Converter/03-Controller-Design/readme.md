@@ -19,8 +19,9 @@
 <img width="180" height="95" alt="image" src="https://github.com/user-attachments/assets/47640f5c-9588-4c0d-b4bb-2d50fe6ffe84" />
 ### - Output voltage from DC-DC-Wandler block again:
 <img width="176" height="64" alt="image" src="https://github.com/user-attachments/assets/5514872d-c67f-4e46-98b6-9f5f4ca1282e" />
-### - Efficient gain as seen by the controller 
+### - Efficient gain as seen by the controller:
 <img width="303" height="487" alt="image" src="https://github.com/user-attachments/assets/e0f94a3d-5f6f-471d-bc2c-ebcddebf64f8" />
+
 ### - and then convert it to minivolt:
 <img width="396" height="83" alt="image" src="https://github.com/user-attachments/assets/744a4b1e-c119-4ace-afa1-a91f73ee6c2d" />
 
