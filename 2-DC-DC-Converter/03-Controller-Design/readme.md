@@ -45,7 +45,6 @@
 ## That's why we see:
 ### - Initial value = the reference before the step time
 ### - Final value = the new reference after the step time, as follows 
-<img width="1920" height="1027" alt="image" src="https://github.com/user-attachments/assets/2f3a47d8-905b-4e7d-9454-ed26108170c3" />
 
 ### So one can simulate a “setpoint change” — which is one of the most important tests in control engineering.
 ### But in reality…
