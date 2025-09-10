@@ -17,7 +17,11 @@
 ### - Target output is Ua = 5V, 
 ### - Plant operated with 2 small bulbs as the load.
 ## Hints
-### - Use an averaged plant: average the transfer-function coefficients from both conduction modes (on/off) → one “middle” transfer function.
+
+## The model in the loop simulation block digram is as follows:
+
+<img width="1469" height="258" alt="image" src="https://github.com/user-attachments/assets/cdd8810d-7a21-4fe4-ad36-272a465aceac" />
+
 ### - Input voltage seen by the DC-DC-Wanlder block comes from PWM:
 
 <img width="180" height="95" alt="image" src="https://github.com/user-attachments/assets/47640f5c-9588-4c0d-b4bb-2d50fe6ffe84" />
@@ -30,10 +34,6 @@
 
 ### - and then convert it to minivolt:
 <img width="396" height="83" alt="image" src="https://github.com/user-attachments/assets/744a4b1e-c119-4ace-afa1-a91f73ee6c2d" />
-
-## The model in the loop simulation block digram is as follows:
-
-<img width="1469" height="258" alt="image" src="https://github.com/user-attachments/assets/cdd8810d-7a21-4fe4-ad36-272a465aceac" />
 
 ### the description:
 <img width="983" height="364" alt="image" src="https://github.com/user-attachments/assets/4e379980-40bd-454f-b0cd-fa3b1662ef5d" />
