@@ -29,7 +29,7 @@
 ### - Output voltage from the DC-DC-Wandler block:
 <img width="176" height="64" alt="image" src="https://github.com/user-attachments/assets/5514872d-c67f-4e46-98b6-9f5f4ca1282e" />
 
-### - Efficient gain as seen by the controller:
+### - Efficient gain as seen by the whole converter:
 <img width="303" height="487" alt="image" src="https://github.com/user-attachments/assets/e0f94a3d-5f6f-471d-bc2c-ebcddebf64f8" />
 
 ### - and then convert it to minivolt:
