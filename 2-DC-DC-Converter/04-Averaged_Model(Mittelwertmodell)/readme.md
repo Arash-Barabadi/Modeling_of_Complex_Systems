@@ -18,7 +18,9 @@
 # What is the deduction process of math of the P-gain element?
 ### Transfer function from input voltage 𝑈 to output voltage Ua
 <img width="945" height="80" alt="image" src="https://github.com/user-attachments/assets/f117a417-2ccb-4651-8dc3-cfa899c0c48a" />
+
 ### Normalize denominator → standard second-order form...
+
 ### Compare with standard PT-2 form:
 <img width="646" height="274" alt="image" src="https://github.com/user-attachments/assets/54e1d07a-9173-4578-8091-49b60cbdb63a" />
 
