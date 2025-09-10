@@ -25,5 +25,5 @@
 <img width="655" height="485" alt="image" src="https://github.com/user-attachments/assets/237a3821-a5b0-4324-a988-865ec0564c6f" />
 
 # Therefore:
-
-<img width="896" height="59" alt="image" src="https://github.com/user-attachments/assets/b9b41a40-161a-4abb-a400-46386f3263c2" />
+### We keep only the static gain
+<img width="896" height="137" alt="image" src="https://github.com/user-attachments/assets/d96d897e-27c7-4545-88c3-455d976b477d" />
