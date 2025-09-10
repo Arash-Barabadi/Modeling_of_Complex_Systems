@@ -35,4 +35,12 @@
 
 <img width="712" height="260" alt="image" src="https://github.com/user-attachments/assets/02a82d9b-1efa-4b55-8320-769cb39b7704" />
 
+### If we write PWM in %:
+<img width="281" height="108" alt="image" src="https://github.com/user-attachments/assets/92458f03-d35a-4249-a5ff-733147c3cf55" />
+### and then ...
+<img width="586" height="143" alt="image" src="https://github.com/user-attachments/assets/5d2574b1-fc3a-445b-8266-414cdba2eb08" />
+
+
+
+
 
