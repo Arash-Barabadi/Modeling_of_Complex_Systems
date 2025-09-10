@@ -21,4 +21,9 @@
 ### Normalize denominator → standard second-order form...
 ### Compare with standard PT-2 form:
 <img width="646" height="274" alt="image" src="https://github.com/user-attachments/assets/54e1d07a-9173-4578-8091-49b60cbdb63a" />
+
 <img width="655" height="485" alt="image" src="https://github.com/user-attachments/assets/237a3821-a5b0-4324-a988-865ec0564c6f" />
+
+# Therefore:
+
+<img width="896" height="59" alt="image" src="https://github.com/user-attachments/assets/b9b41a40-161a-4abb-a400-46386f3263c2" />
