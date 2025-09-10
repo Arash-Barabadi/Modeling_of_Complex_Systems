@@ -29,3 +29,13 @@
 # Therefore:
 ### We keep only the static gain
 <img width="896" height="137" alt="image" src="https://github.com/user-attachments/assets/d96d897e-27c7-4545-88c3-455d976b477d" />
+
+### We know that: 
+<img width="671" height="128" alt="image" src="https://github.com/user-attachments/assets/f0dd778a-97d8-496a-9096-89ff963ccea4" />
+
+### then...
+<img width="417" height="70" alt="image" src="https://github.com/user-attachments/assets/997824be-d70c-4312-9ae8-8028965783eb" />
+
+<img width="712" height="260" alt="image" src="https://github.com/user-attachments/assets/02a82d9b-1efa-4b55-8320-769cb39b7704" />
+
+
