@@ -31,7 +31,7 @@
 <img width="896" height="137" alt="image" src="https://github.com/user-attachments/assets/d96d897e-27c7-4545-88c3-455d976b477d" />
 
 ### We know that: 
-<img width="673" height="267" alt="image" src="https://github.com/user-attachments/assets/34113d93-6650-4a2c-907a-3267b11d0e37" />
+<img width="405" height="59" alt="image" src="https://github.com/user-attachments/assets/18b97768-674f-4382-9dd8-eb58aacd0712" />
 
 ### then...
 <img width="417" height="70" alt="image" src="https://github.com/user-attachments/assets/997824be-d70c-4312-9ae8-8028965783eb" />
