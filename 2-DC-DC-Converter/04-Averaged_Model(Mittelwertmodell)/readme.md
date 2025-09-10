@@ -10,3 +10,9 @@
 
 # So ...
 ### Most voltage controllers care about the slow, average settling of  Ua not the microsecond-scale ripple. The average model captures what the controller needs while being light enough to run on the ESP32 in HiL.
+
+# What does the averaged model do with these poles?
+### It removes the fast pole (high-frequency switching LC dynamics).
+### It often even ignores the second pole and just keeps the static gain (P-element).
+### This makes the model much simpler: instead of oscillations, you just get the average DC voltage response.
+
