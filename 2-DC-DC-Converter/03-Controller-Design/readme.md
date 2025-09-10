@@ -26,7 +26,7 @@
 
 <img width="180" height="95" alt="image" src="https://github.com/user-attachments/assets/47640f5c-9588-4c0d-b4bb-2d50fe6ffe84" />
 
-### - Output voltage from the whole DC-DC-Converter again:
+### - Output voltage from the DC-DC-Wandler block:
 <img width="176" height="64" alt="image" src="https://github.com/user-attachments/assets/5514872d-c67f-4e46-98b6-9f5f4ca1282e" />
 
 ### - Efficient gain as seen by the controller:
