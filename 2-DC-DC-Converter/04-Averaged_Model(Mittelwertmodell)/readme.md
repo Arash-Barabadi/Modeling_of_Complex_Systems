@@ -54,6 +54,13 @@
 #### 𝑅 Last is used to calculate Ua.
 ### That’s a direct algebraic loop in Simulink. Simulink doesn’t like that, because it means “solve an equation that depends on itself, instantly.” To break that loop, we need to add dynamics (time dependence).
 
+<img width="959" height="413" alt="image" src="https://github.com/user-attachments/assets/7b92fb60-9aff-454b-a7de-b24caeb6d9a7" />
+
+<img width="954" height="374" alt="image" src="https://github.com/user-attachments/assets/6a2f01f0-06db-441a-b847-045946890ed9" />
+
+<img width="871" height="616" alt="image" src="https://github.com/user-attachments/assets/b13af1b6-9654-4bc6-8a1f-15fdbe23c5a6" />
+
+
 
 
 
