@@ -41,6 +41,10 @@
 ### and then ...
 <img width="586" height="143" alt="image" src="https://github.com/user-attachments/assets/5d2574b1-fc3a-445b-8266-414cdba2eb08" />
 
+### The following block digram is the HiL (Variant-1) plant built in Simulink. It implements the simple formula:
+<img width="474" height="105" alt="image" src="https://github.com/user-attachments/assets/94644117-36a6-4e11-ac3e-4a9f62a85008" />
+
+<img width="1152" height="762" alt="image" src="https://github.com/user-attachments/assets/c4794bf1-b0e4-4fd2-a3ca-d132d3fddad8" />
 
 
 
