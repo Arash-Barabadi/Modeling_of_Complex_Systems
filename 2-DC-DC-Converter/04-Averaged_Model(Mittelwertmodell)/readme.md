@@ -46,6 +46,15 @@
 
 <img width="1152" height="762" alt="image" src="https://github.com/user-attachments/assets/c4794bf1-b0e4-4fd2-a3ca-d132d3fddad8" />
 
+# Important notice 
+## Why we add feedback routs to our control system
+### In this HiL model, the load resistance 𝑅 Last depends on the actual output voltage Ua, because light bulbs are non-linear resistors (their resistance increases as they heat up).
+### This means: 
+#### Ua is used to calculate 𝑅 Last.
+#### 𝑅 Last is used to calculate Ua.
+### That’s a direct algebraic loop in Simulink. Simulink doesn’t like that, because it means “solve an equation that depends on itself, instantly.” To break that loop, we need to add dynamics (time dependence).
+
+
 
 
 
