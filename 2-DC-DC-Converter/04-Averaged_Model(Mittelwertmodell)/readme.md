@@ -180,8 +180,8 @@ KL_DCDC_2B = [
 ### This Simulink model runs on the ESP32 controller.
 ### Key parts:
 
-### Analog input driver: reads output voltage (Pin 2).
-### PWM output driver: generates PWM for converter (Pin 32).
-### Controller block (Regler): calculates PWM value based on error.
-### Serial communication: sends/receives data to MATLAB GUI.
-### So, the ESP32 acts as the real-time controller.
+### -Analog input driver: reads output voltage (Pin 2).
+### -PWM output driver: generates PWM for converter (Pin 32).
+### -Controller block (Regler): calculates PWM value based on error.
+### -Serial communication: sends/receives data to MATLAB GUI.
+### -So, the ESP32 acts as the real-time controller.
