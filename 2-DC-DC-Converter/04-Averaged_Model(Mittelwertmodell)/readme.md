@@ -81,7 +81,8 @@
 ### As can be seen, the table captures the nonlinear behavior of the system under load.
 ### In MATLAB workspace, the table is saved as a variable, e.g.:
 
-``Matlab
+``` matlab
+
 % 1 Birnchen
 % ----------
 KL_DCDC_1B = [
