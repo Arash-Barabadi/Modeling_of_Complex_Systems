@@ -109,8 +109,6 @@ KL_DCDC_2B = [
 ### u1 = frequency [Hz], u2 = PWM [%], Output : Ua (interpolated between table entries).
 
 ### So if PWM = 37% and f = 12000 Hz, the block finds the closest values in the table and interpolates to give Ua.
-<img width="963" height="305" alt="image" src="https://github.com/user-attachments/assets/f0b7711b-056d-450e-87b2-5011fd2aeed6" />
-
 
 ## Connecting the data to the block through Look Up table in Simulink library
 ### In the block parameters: Table data = measured values (the big matrix of Ua).
@@ -123,6 +121,19 @@ KL_DCDC_2B = [
 ### We can link a function to the block. Example: double-clicking the block runs kf_plot, which plots the 3D surface of our table. That way, we can visualize the Kennfeld quickly.
 <img width="427" height="322" alt="image" src="https://github.com/user-attachments/assets/1f811f9f-dd86-499f-83c8-66ff8abffdd8" />
 
+## Final Implementation 
+### Two lookup tables are used:
+### .   -One for 1 bulb (KL_DCDC_1B).
+### .   -One for 2 bulbs (KL_DCDC_2B).
+
+### The B input (1 or 2) selects which table to use.
+### Both tables receive PWM and frequency as inputs. 
+### A switch block chooses the correct output Ua.
+<img width="816" height="359" alt="image" src="https://github.com/user-attachments/assets/febe5622-2097-44c3-89d8-ee0d7d4c75b2" />
+
+
+### Finally, we get the average output voltage depending on PWM, frequency, and load.
+<img width="963" height="305" alt="image" src="https://github.com/user-attachments/assets/f0b7711b-056d-450e-87b2-5011fd2aeed6" />
 
 
 
