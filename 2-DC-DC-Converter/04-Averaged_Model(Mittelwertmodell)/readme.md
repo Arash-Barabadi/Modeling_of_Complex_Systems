@@ -165,5 +165,13 @@ KL_DCDC_2B = [
 
 ### This dataset is used to train the neural net.
 
+## Neural Network Fitting App
+### MATLAB’s Neural Network Fitting App is used.
+### You define: Inputs = [PWM, frequency, bulbs], Output =Ua
+### The network structure: 
+#### .    Input layer → hidden layer (sigmoid neurons) → output layer (linear neuron).
+### After training, the neural network can predict
+
+<img width="1521" height="648" alt="image" src="https://github.com/user-attachments/assets/0c0586dd-9c17-47ab-8a86-137c9120a885" />
 
 
