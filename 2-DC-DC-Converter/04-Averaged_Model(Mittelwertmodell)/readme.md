@@ -136,5 +136,14 @@ KL_DCDC_2B = [
 ### Finally, we get the average output voltage depending on PWM, frequency, and load.
 <img width="963" height="305" alt="image" src="https://github.com/user-attachments/assets/f0b7711b-056d-450e-87b2-5011fd2aeed6" />
 
+# Variant 3:
+### Artificial Neural Network (KNN)
+### Instead of equations (Variant 1) or lookup tables (Variant 2), we use a Neural Network.
+### Inputs:
+#### -PWM value
+#### -Switching frequency
+#### -Number of bulbs (load)
+### Output:
+#### -Output voltage Ua of the DC-DC converter.
 
-
+### So, the neural net learns the same mapping as in Variant 1 & 2, but directly from training data.
