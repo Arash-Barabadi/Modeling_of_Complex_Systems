@@ -18,7 +18,7 @@
 ### It removes the fast pole (high-frequency switching LC dynamics).
 ### It often even ignores the second pole and just keeps the static gain (P-element).
 ### This makes the model much simpler: instead of oscillations, you just get the average DC voltage response.
-# What is the deduction process of math of the P-gain element?
+## What is the deduction process of math of the P-gain element?
 ### Transfer function from input voltage 𝑈 to output voltage Ua
 <img width="945" height="80" alt="image" src="https://github.com/user-attachments/assets/f117a417-2ccb-4651-8dc3-cfa899c0c48a" />
 
@@ -29,7 +29,7 @@
 
 <img width="655" height="485" alt="image" src="https://github.com/user-attachments/assets/237a3821-a5b0-4324-a988-865ec0564c6f" />
 
-# Therefore:
+##s Therefore:
 ### We keep only the static gain
 <img width="896" height="137" alt="image" src="https://github.com/user-attachments/assets/d96d897e-27c7-4545-88c3-455d976b477d" />
 
