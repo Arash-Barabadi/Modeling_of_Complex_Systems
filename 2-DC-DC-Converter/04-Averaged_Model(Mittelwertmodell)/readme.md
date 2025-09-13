@@ -175,3 +175,13 @@ KL_DCDC_2B = [
 <img width="1521" height="648" alt="image" src="https://github.com/user-attachments/assets/0c0586dd-9c17-47ab-8a86-137c9120a885" />
 
 ### Then, the trained NN is exported into Simulink as a block.
+
+## Controller Model (Steuergeräte-Modell)
+### This Simulink model runs on the ESP32 controller.
+### Key parts:
+
+### Analog input driver: reads output voltage (Pin 2).
+### PWM output driver: generates PWM for converter (Pin 32).
+### Controller block (Regler): calculates PWM value based on error.
+### Serial communication: sends/receives data to MATLAB GUI.
+### So, the ESP32 acts as the real-time controller.
