@@ -151,7 +151,7 @@ KL_DCDC_2B = [
 ## Training dataset
 ### A dataset was collected with:
 #### - Random PWM signals
-<img width="809" height="348" alt="image" src="https://github.com/user-attachments/assets/c702d37a-ac45-42e9-8eda-4654985de6de" />
+<img width="935" height="406" alt="image" src="https://github.com/user-attachments/assets/94c79aab-9701-4f5b-972f-7895ba4cc9b7" />
 
 #### - Frequencies stepped through values
 <img width="797" height="383" alt="image" src="https://github.com/user-attachments/assets/c72fe753-3382-4dea-98e4-5832d85f0b39" />
