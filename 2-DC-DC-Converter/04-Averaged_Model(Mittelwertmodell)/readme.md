@@ -199,3 +199,16 @@ KL_DCDC_2B = [
 
 ### This allows controller testing without real hardware, but with realistic models.
 
+## Hardware connection
+### Two ESP32 boards are used:
+### Left = Controller.
+### Right = HiL platform (plant simulator).
+
+### Connections:
+
+#### PWM signal (orange wire).
+#### Analog feedback Ua (blue wire).
+#### GND shared (red wire).
+<img width="1316" height="664" alt="image" src="https://github.com/user-attachments/assets/93e118ab-207d-4bac-975f-be8773f7b6cc" />
+
+### This way, the controller “thinks” it is connected to a real converter, but it’s actually the simulated model.
