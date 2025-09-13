@@ -116,3 +116,6 @@ KL_DCDC_2B = [
 ### Breakpoints 1 = frequency axis (rows).
 ### Breakpoints 2 = PWM axis (columns).
 ### This tells Simulink how to read the data.
+
+## Callback Functions (nice extra feature)
+### We can link a function to the block. Example: double-clicking the block runs kf_plot, which plots the 3D surface of our table. That way, we can visualize the Kennfeld quickly.
