@@ -14,7 +14,7 @@
 ### Variant 1 (analytical average model): Based on physics equations (resistances, gain K). Very light to compute → good for HiL. But maybe less accurate.
 ### Variant 2 (lookup-table average model): Based on measured steady-state data (PWM, frequency → output voltage). Also light to compute → good for HiL. Usually more accurate in the measured range.
 # Variant 1:
-# What does the averaged model do with these poles?
+## What does the averaged model do with these poles?
 ### It removes the fast pole (high-frequency switching LC dynamics).
 ### It often even ignores the second pole and just keeps the static gain (P-element).
 ### This makes the model much simpler: instead of oscillations, you just get the average DC voltage response.
@@ -29,7 +29,7 @@
 
 <img width="655" height="485" alt="image" src="https://github.com/user-attachments/assets/237a3821-a5b0-4324-a988-865ec0564c6f" />
 
-##s Therefore:
+## Therefore:
 ### We keep only the static gain
 <img width="896" height="137" alt="image" src="https://github.com/user-attachments/assets/d96d897e-27c7-4545-88c3-455d976b477d" />
 
@@ -49,7 +49,7 @@
 
 <img width="1152" height="762" alt="image" src="https://github.com/user-attachments/assets/c4794bf1-b0e4-4fd2-a3ca-d132d3fddad8" />
 
-# Important notice 
+## Important notice 
 ## Why we add feedback routs to our control system
 ### In this HiL model, the load resistance 𝑅 Last depends on the actual output voltage Ua, because light bulbs are non-linear resistors (their resistance increases as they heat up).
 ### This means: 
