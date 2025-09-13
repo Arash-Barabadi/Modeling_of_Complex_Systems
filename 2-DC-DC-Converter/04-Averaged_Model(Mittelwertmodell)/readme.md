@@ -174,4 +174,4 @@ KL_DCDC_2B = [
 
 <img width="1521" height="648" alt="image" src="https://github.com/user-attachments/assets/0c0586dd-9c17-47ab-8a86-137c9120a885" />
 
-
+### Then, the trained NN is exported into Simulink as a block.
