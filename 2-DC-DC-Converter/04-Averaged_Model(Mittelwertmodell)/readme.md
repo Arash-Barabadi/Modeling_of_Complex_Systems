@@ -104,4 +104,8 @@ KL_DCDC_2B = [
     20000	0       0.000	0.589	1.424	2.322	3.273	4.254	5.256	6.263	7.300	8.354
 ];
 ```
+### Using the table in Simulink, we add a 2-D Lookup Table block (from Simulink → Lookup Tables).
+### Inputs:
+### u1 = frequency [Hz], u2 = PWM [%], Output : Ua (interpolated between table entries).
 
+### So if PWM = 37% and f = 12000 Hz, the block finds the closest values in the table and interpolates to give Ua.
