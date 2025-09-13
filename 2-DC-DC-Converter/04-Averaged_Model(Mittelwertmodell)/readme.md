@@ -71,5 +71,12 @@
 ### - Simulink then reads the table: for any PWM and frequency, it outputs the correct Ua . 
 ### - You can have two tables: one for 1 bulb and one for 2 bulbs.
 
+## Measurement grid (Messraster)
+### PWM is varied from 10% → 100%
+### Frequency is varied between 5000, 10000, 15000, 20000 Hz.
+### For each pair (PWM, f), Ua is measured and written in the table as follows:
 
+<img width="1468" height="622" alt="image" src="https://github.com/user-attachments/assets/7da9186f-d35e-400d-9b8c-81a63755d4c9" />
+
+### As can be seen, the table captures the nonlinear behavior of the system under load.
 
