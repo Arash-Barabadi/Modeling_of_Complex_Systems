@@ -192,7 +192,10 @@ KL_DCDC_2B = [
 #### Lookup-table model (KF).
 #### Neural Network model (NN).
 #### Equation model (theoretical).
-## The PWM signal from the controller is measured, fed into the chosen model, and Ua is calculated.​
+### The PWM signal from the controller is measured, fed into the chosen model, and Ua is calculated.​
 ### That simulated Ua is output as an analog voltage.
+<img width="1521" height="648" alt="image" src="https://github.com/user-attachments/assets/f422055e-0090-47e9-be3a-7bf834503d30" />
+
+
 ### This allows controller testing without real hardware, but with realistic models.
 
