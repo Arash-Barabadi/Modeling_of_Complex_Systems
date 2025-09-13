@@ -212,3 +212,9 @@ KL_DCDC_2B = [
 <img width="1316" height="664" alt="image" src="https://github.com/user-attachments/assets/93e118ab-207d-4bac-975f-be8773f7b6cc" />
 
 ### This way, the controller “thinks” it is connected to a real converter, but it’s actually the simulated model.
+
+## GUI for HiL Simulator
+### A MATLAB App Designer GUI is provided. We can:
+### Set frequency, PWM, or reference voltage. Switch between control or open-loop. Observe live plots: Output voltage, frequency, PWM. This GUI works for both HiL and real system.
+
+<img width="1521" height="714" alt="image" src="https://github.com/user-attachments/assets/5ff96004-1d14-4238-a1de-90de560151c0" />
