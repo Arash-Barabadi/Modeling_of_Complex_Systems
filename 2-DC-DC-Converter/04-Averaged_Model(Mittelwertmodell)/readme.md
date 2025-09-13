@@ -172,6 +172,9 @@ KL_DCDC_2B = [
 #### .    Input layer → hidden layer (sigmoid neurons) → output layer (linear neuron).
 ### After training, the neural network can predict
 
+<img width="1814" height="793" alt="image" src="https://github.com/user-attachments/assets/ecea1d28-1829-4f7f-bed6-de8f437ab114" />
+
+
 <img width="1521" height="648" alt="image" src="https://github.com/user-attachments/assets/0c0586dd-9c17-47ab-8a86-137c9120a885" />
 
 ### Then, the trained NN is exported into Simulink as a block.
@@ -218,7 +221,7 @@ KL_DCDC_2B = [
 ### Set frequency, PWM, or reference voltage. Switch between control or open-loop. Observe live plots: Output voltage, frequency, PWM. This GUI works for both HiL and real system.
 <img width="1013" height="797" alt="image" src="https://github.com/user-attachments/assets/2f338aa3-da79-4a93-9e50-94a3d0c3b435" />
 
-## 8️⃣ Real System
+## Real System
 ### Finally, instead of the HiL board, the controller is connected to the real DC-DC converter hardware:
 #### -Converter board.
 #### -Voltage divider (so ESP32 ADC isn’t overloaded).
