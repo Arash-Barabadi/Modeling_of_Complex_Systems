@@ -121,7 +121,8 @@ KL_DCDC_2B = [
 
 ## Callback Functions (nice extra feature)
 ### We can link a function to the block. Example: double-clicking the block runs kf_plot, which plots the 3D surface of our table. That way, we can visualize the Kennfeld quickly.
-<img width="473" height="343" alt="image" src="https://github.com/user-attachments/assets/6ab62780-d9ba-4ed4-82da-eff20325c56d" />
+<img width="427" height="322" alt="image" src="https://github.com/user-attachments/assets/1f811f9f-dd86-499f-83c8-66ff8abffdd8" />
+
 
 
 
