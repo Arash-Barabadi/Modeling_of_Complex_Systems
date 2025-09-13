@@ -109,6 +109,8 @@ KL_DCDC_2B = [
 ### u1 = frequency [Hz], u2 = PWM [%], Output : Ua (interpolated between table entries).
 
 ### So if PWM = 37% and f = 12000 Hz, the block finds the closest values in the table and interpolates to give Ua.
+<img width="963" height="305" alt="image" src="https://github.com/user-attachments/assets/f0b7711b-056d-450e-87b2-5011fd2aeed6" />
+
 
 ## Connecting the data to the block through Look Up table in Simulink library
 ### In the block parameters: Table data = measured values (the big matrix of Ua).
