@@ -216,5 +216,25 @@ KL_DCDC_2B = [
 ## GUI for HiL Simulator
 ### A MATLAB App Designer GUI is provided. We can:
 ### Set frequency, PWM, or reference voltage. Switch between control or open-loop. Observe live plots: Output voltage, frequency, PWM. This GUI works for both HiL and real system.
+<img width="1013" height="797" alt="image" src="https://github.com/user-attachments/assets/2f338aa3-da79-4a93-9e50-94a3d0c3b435" />
 
-<img width="1521" height="714" alt="image" src="https://github.com/user-attachments/assets/5ff96004-1d14-4238-a1de-90de560151c0" />
+## 8️⃣ Real System
+### Finally, instead of the HiL board, the controller is connected to the real DC-DC converter hardware:
+#### -Converter board.
+#### -Voltage divider (so ESP32 ADC isn’t overloaded).
+#### -12 V lab power supply.
+#### -ESP32 controller.
+
+### The same GUI and control logic are used → only the “plant” changes.
+
+# In simple words:
+### Variant 1: Equations → Fast, simple model.
+### Variant 2: Lookup table → Measured values used as model.
+### Variant 3: Neural Network → Learns the relation from data.
+
+## On the HiL setup:
+
+### Controller ESP32 sends PWM.
+### Plant ESP32 (HiL) simulates the converter using Variant 1, 2, or 3.
+### GUI in MATLAB shows results.
+### Later, the controller is connected to the real converter with the same setup.
