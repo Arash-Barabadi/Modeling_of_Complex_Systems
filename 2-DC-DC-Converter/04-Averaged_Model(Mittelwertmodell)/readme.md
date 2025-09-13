@@ -185,3 +185,14 @@ KL_DCDC_2B = [
 ### -Controller block (Regler): calculates PWM value based on error.
 ### -Serial communication: sends/receives data to MATLAB GUI.
 ### -So, the ESP32 acts as the real-time controller.
+<img width="1506" height="681" alt="image" src="https://github.com/user-attachments/assets/29d1cec8-d18c-40ba-98e4-965d41eb9f4c" />
+
+## HiL Platform Model
+### On the HiL ESP32 board, instead of a real converter, we run one of the plant models:
+#### Lookup-table model (KF).
+#### Neural Network model (NN).
+#### Equation model (theoretical).
+## The PWM signal from the controller is measured, fed into the chosen model, and Ua is calculated.​
+### That simulated Ua is output as an analog voltage.
+### This allows controller testing without real hardware, but with realistic models.
+
