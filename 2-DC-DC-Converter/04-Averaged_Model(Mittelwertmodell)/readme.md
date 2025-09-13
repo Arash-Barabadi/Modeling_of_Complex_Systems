@@ -174,9 +174,6 @@ KL_DCDC_2B = [
 
 <img width="1814" height="793" alt="image" src="https://github.com/user-attachments/assets/ecea1d28-1829-4f7f-bed6-de8f437ab114" />
 
-
-<img width="1521" height="648" alt="image" src="https://github.com/user-attachments/assets/0c0586dd-9c17-47ab-8a86-137c9120a885" />
-
 ### Then, the trained NN is exported into Simulink as a block.
 
 ## Controller Model (Steuergeräte-Modell)
