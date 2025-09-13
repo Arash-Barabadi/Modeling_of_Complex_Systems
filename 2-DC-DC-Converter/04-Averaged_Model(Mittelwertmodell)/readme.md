@@ -10,7 +10,10 @@
 
 # So ...
 ### Most voltage controllers care about the slow, average settling of  Ua not the microsecond-scale ripple. The average model captures what the controller needs while being light enough to run on the ESP32 in HiL.
-
+# There are two variants to creat this average model:
+### Variant 1 (analytical average model): Based on physics equations (resistances, gain K). Very light to compute → good for HiL. But maybe less accurate.
+### Variant 2 (lookup-table average model): Based on measured steady-state data (PWM, frequency → output voltage). Also light to compute → good for HiL. Usually more accurate in the measured range.
+# Variant 1:
 # What does the averaged model do with these poles?
 ### It removes the fast pole (high-frequency switching LC dynamics).
 ### It often even ignores the second pole and just keeps the static gain (P-element).
@@ -59,6 +62,8 @@
 <img width="954" height="374" alt="image" src="https://github.com/user-attachments/assets/6a2f01f0-06db-441a-b847-045946890ed9" />
 
 <img width="871" height="616" alt="image" src="https://github.com/user-attachments/assets/b13af1b6-9654-4bc6-8a1f-15fdbe23c5a6" />
+
+# Variant 2:
 
 
 
