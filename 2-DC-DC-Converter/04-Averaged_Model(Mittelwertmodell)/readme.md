@@ -152,12 +152,16 @@ KL_DCDC_2B = [
 ### A dataset was collected with:
 #### - Random PWM signals
 <img width="809" height="348" alt="image" src="https://github.com/user-attachments/assets/c702d37a-ac45-42e9-8eda-4654985de6de" />
+
 #### - Frequencies stepped through values
 <img width="797" height="383" alt="image" src="https://github.com/user-attachments/assets/c72fe753-3382-4dea-98e4-5832d85f0b39" />
+
 #### - Load changed from 1 to 2 bulbs
 <img width="808" height="368" alt="image" src="https://github.com/user-attachments/assets/18e24601-e9cd-49d3-b7b4-91f6793c08c8" />
+
 #### - Measured output voltage
 <img width="1260" height="869" alt="image" src="https://github.com/user-attachments/assets/a73c6629-7a53-42de-8f55-801dc2eb396d" />
+
 
 ### This dataset is used to train the neural net.
 
