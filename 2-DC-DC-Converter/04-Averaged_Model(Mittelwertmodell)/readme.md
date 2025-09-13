@@ -67,9 +67,9 @@
 ### Instead of using equations for the DC-DC converter, we measured data:
 ### Inputs: PWM [%] and switching frequency [Hz]
 ### Output: average output voltage Ua
-###   - That measurement is stored as a table.
-###   - Simulink then reads the table: for any PWM and frequency, it outputs the correct Ua . 
-###   - You can have two tables: one for 1 bulb and one for 2 bulbs.
+### - That measurement is stored as a table.
+### - Simulink then reads the table: for any PWM and frequency, it outputs the correct Ua . 
+### - You can have two tables: one for 1 bulb and one for 2 bulbs.
 
 
 
